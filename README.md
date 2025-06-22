@@ -6,7 +6,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%234169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-> Это учебное веб-приложение "Блог", написанное с использованием **Python** и фреймворка **Django**, с поддержкой публикации статей, добавления комментариев, поиска постов и отправки статей по email.
+> Проект реализован во время обучения на джанго.
 
 ---
 
@@ -153,67 +153,3 @@ python-decouple
 markdown
 ```
 
----
-
-## 🚀 Как запустить проект
-
-1. 📥 Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/ваше-имя/hhanqq-python-django-myblog.git
-   cd hhanqq-python-django-myblog
-   ```
-
-2. ⚙️ Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. 📄 Настройте `.env` файл:
-   ```
-   DB_NAME=your_db_name
-   DB_USER=your_db_user
-   DB_PASSWORD=your_password
-   DB_HOST=localhost
-   EMAIL_HOST_USER=youremail@mail.ru
-   EMAIL_HOST_PASSWORD=your_email_password
-   DEFAULT_FROM_EMAIL=youremail@mail.ru
-   ```
-
-4. 🔄 Примените миграции:
-   ```bash
-   python manage.py migrate
-   ```
-
-5. 🔐 Создайте суперпользователя:
-   ```bash
-   python manage.py createsuperuser
-   ```
-
-6. ▶️ Запустите сервер:
-   ```bash
-   python manage.py runserver
-   ```
-
-7. 🌐 Перейдите по ссылке: [http://127.0.0.1:8000/blog/](http://127.0.0.1:8000/blog/)
-
----
-
-## 📜 Лицензия
-
-MIT License — см. [LICENSE](LICENSE) для подробностей.
-
----
-
-## 📩 Поддержка
-
-Если у вас есть вопросы или идеи, вы можете создать issue в репозитории или написать мне в [Telegram](https://t.me/ваше_имя).
-
----
-
-Хочешь, я также создам:
-
-- [ ] Бейджики GitHub (например, build status, license, version)
-- [ ] Лого/баннер для README
-- [ ] Скриншоты интерфейса
-
-Напиши, если хочешь продолжить оформление! 😊
