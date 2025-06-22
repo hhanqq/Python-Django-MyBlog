@@ -1,0 +1,67 @@
+# -----------------------------
+# Python
+# -----------------------------
+*.pyc
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+develop-eggs/
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+coverage.xml
+.pytest_cache/
+
+# -----------------------------
+# Django
+# -----------------------------
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+.env
+.env.local
+.env.development.local
+.env.test.local
+
+# -----------------------------
+# IDE / OS
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
+.env.docker
+.env.local
+
+# -----------------------------
+# Git
+# -----------------------------
+.git/
+!.gitignore
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
